@@ -4,7 +4,7 @@ import io
 from PIL import Image
 
 app = Flask(__name__)
-
+#pass rcongnistion code here
 rekognition = boto3.client('rekognition', region_name='us-east-1')
 dynamodb = boto3.client('dynamodb', region_name='us-east-1')
 
